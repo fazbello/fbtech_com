@@ -3,7 +3,7 @@ services:
   web:
     image: fbtech:latest
     depends_on:
-      - fbtech-db
+      - db
     ports:
       - "8069:8069"
   db:
